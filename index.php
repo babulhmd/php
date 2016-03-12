@@ -33,4 +33,32 @@ while ($x <= 100) {
 $x++;
 }
 
+$i=1;
+while($i<=10)
+{
+    $j=1;
+    while($j<=$i)
+    {
+      echo $j;
+      $j++;
+    }
+
+    echo"<br>";
+    $i++;
+}
+
+
+$i=1;
+while($i<=10)
+{
+    $j=10;
+    while($j>=$i)
+    {
+      echo $j;
+      $j--;
+    }
+
+    echo"<br>";
+    $i++;
+}
  ?>
